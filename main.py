@@ -1,10 +1,27 @@
-import requests
-import time
-import json
-from datetime import datetime
-from tqdm import tqdm
-from colorama import Fore, Style, init
-from pystyle import Colorate, Colors
+import webbrowser
+import os
+webbrowser.open("https://discord.gg/vyr27Hnnxc")
+try:
+    import requests
+    import time
+    import json
+    from datetime import datetime
+    from tqdm import tqdm
+    from colorama import Fore, Style, init
+    from pystyle import Colorate, Colors
+except ImportError:
+    os.system('pip install requests')
+    os.system('datetime')
+    os.system('tqdm')
+    os.system('colorama')
+    os.system('pystyle')
+    import requests
+    import time
+    import json
+    from datetime import datetime
+    from tqdm import tqdm
+    from colorama import Fore, Style, init
+    from pystyle import Colorate, Colors
 
 init(autoreset=True)
 
