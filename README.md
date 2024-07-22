@@ -1,1 +1,5 @@
-# murphys-status
+MURPHY STATUS BY https://discord.gg/vyr27Hnnxc
+
+# INSTALL PYTHON : https://python.org/
+
+# RUN root.bat
